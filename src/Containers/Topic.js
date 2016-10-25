@@ -13,7 +13,7 @@ class Topic extends Component {
   }
 
   componentWillMount() {
-    
+
   }
 
   render() {
@@ -28,7 +28,7 @@ class Topic extends Component {
             {isEmpty && <Content topic={wrongObj}/>}
           </div>
           <div className="col-md-3 no-padding-xs">
-            <RightSidebar />
+            <RightSidebar hideHot={true}/>
           </div>
         </div>
       </div>

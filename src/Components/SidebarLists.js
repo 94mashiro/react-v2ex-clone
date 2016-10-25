@@ -14,7 +14,7 @@ class SidebarLists extends Component {
               <span className="center-span"><img className='img-circle img-width-24' src={topic.member.avatar_large} role="presentation" /></span>
             </a>
             <div className="media-body">
-              <a href={`/t/${topic.id}`} className='title'>{topic.title}</a>
+              <Link to={`/t/${topic.id}`} className='title'>{topic.title}</Link>
             </div>
           </div>
         );

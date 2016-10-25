@@ -16,7 +16,7 @@ class RightSidebar extends Component {
     return (
       <div>
         <UserInfo />
-        <Hot topics={this.props.hotTopics} fetchTopic={this.props.actions.fetchTopic}/>
+        <Hot topics={this.props.hotTopics} hideHot={this.props.hideHot}/>
       </div>
     );
   }

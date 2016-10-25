@@ -10,7 +10,7 @@ class Home extends Component {
             <Main query={this.props.location.query}/>
           </div>
           <div className="col-md-3 no-padding-xs">
-            <RightSidebar />
+            <RightSidebar hideHot={false}/>
           </div>
         </div>
       </div>

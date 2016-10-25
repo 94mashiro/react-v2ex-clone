@@ -14,7 +14,7 @@ class Lists extends Component {
               <img className='img-circle img-width-50' src={topic.member.avatar_large} role="presentation" />
             </a>
             <div className="media-body">
-              <a href={`/t/${topic.id}`} className='title'>{topic.title}</a>
+              <Link to={`/t/${topic.id}`} className='title'>{topic.title}</Link>
               <TopicInfo topic={topic}></TopicInfo>
             </div>
             <div className='media-right count'>
