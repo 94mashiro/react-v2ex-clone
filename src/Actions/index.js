@@ -58,8 +58,9 @@ export const fetchHot = () => dispatch => {
 }
 
 export const fetchTopic = (id) => dispatch => {
+  dispatch(cleanCacheData())
   const type = types.TOPIC
-  const results = {'topic': {}, 'replies': []};
+  const results = {'topic': {}, 'replies': []}
   let url = `${BASE_URL}/topics/show.json?id=${id}`
   let repliesUrl = `${BASE_URL}/replies/show.json?topic_id=${id}`
   console.log(url);
@@ -75,4 +76,14 @@ export const fetchTopic = (id) => dispatch => {
           dispatch(received(type, results))
         })
     })
+}
+
+const cleanCacheData = () => {
+  return {
+    type: types.TOPIC,
+    payload: {
+      topic: {},
+      replies: []
+    }
+  }
 }
