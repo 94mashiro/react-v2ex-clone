@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import TopicInfo from './TopicInfo'
+import { Link } from 'react-router'
 import '../Stylesheets/Markdown.css'
 import '../Stylesheets/Content.css'
 
@@ -7,7 +8,7 @@ class Content extends Component {
   constructor(props) {
     super(props)
   }
-  
+
   render() {
     const isEmpty = (this.props.topic.id == -1)
     return (
@@ -19,9 +20,9 @@ class Content extends Component {
                 <img src={this.props.topic.member.avatar_large} className="img-circle" alt=""/>
               </div>
               <div className="text-left media-body">
-                <a href="/">V2EX</a>
+                <Link to="/">V2EX</Link>
                 <span className="chevron">&nbsp;&nbsp;›&nbsp;&nbsp;</span>
-                <a href="/go/share">{this.props.topic.node.title}</a>
+                <a href="#">{this.props.topic.node.title}</a>
                 <h1 className="topic-title">{this.props.topic.title}</h1>
                 <div className="small-gray"><TopicInfo topic={this.props.topic} /></div>
               </div>
