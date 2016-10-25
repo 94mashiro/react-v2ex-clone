@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #e2e2e2;
+  font-family: "Segoe UI", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+}
+
+.light-gray-color {
+  color: #bbb;
+}
+
+a, a:link, a:hover {
+  color: #778087;
+  word-break: break-all;
+}
+
+.img-width-50 {
+  width: 50px;
+  height: 50px;
+}
+
+.img-width-24{
+  width: 24px;
+  height: 24px;
+}
+
+.sep3 {
+  width: 3px;
+}

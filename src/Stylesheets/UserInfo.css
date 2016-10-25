@@ -1,0 +1,40 @@
+.panel-body {
+  padding: 10px;
+}
+
+.bigger {
+  font-size: 16px;
+}
+
+.inlineBlock {
+  display: inline-block;
+  text-align: center;
+}
+
+.inlineBlock.center {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.fade {
+  opacity: 100;
+  color: #ccc;
+}
+
+.top {
+  line-height: 120%;
+  padding-bottom:8px;
+}
+
+.bottomBorder {
+  margin: 8px -10px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.panel {
+  font-size: 12px;
+}
+
+.panel-heading .fade {
+  margin-bottom: 0px;
+}

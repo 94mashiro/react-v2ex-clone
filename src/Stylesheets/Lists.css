@@ -1,0 +1,46 @@
+.img-circle {
+  border-radius: 4px;
+}
+.topic-lists .title {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.topic-lists .infos {
+  color: #ABA8A6;
+  font-size: 12px;
+  padding-top: 8px;
+}
+.count.media-right {
+  vertical-align: middle;
+}
+.topic-lists .topic {
+  margin: 0 -15px;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.topic-lists .panel-body {
+  padding: 0 15px;
+}
+.separator {
+  padding: 0 5px;
+}
+
+.badge {
+  padding: 3px 10px;
+  background-color: #aab0c6;
+}
+
+span.glyphicon-heart {
+  color: #EB5424;
+}
+
+span.glyphicon.left {
+  margin-left: 3px;
+}
+span.glyphicon.right {
+  margin-right: 3px;
+}
+span.glyphicon {
+  line-height: 17px;
+  top: 3px;
+}

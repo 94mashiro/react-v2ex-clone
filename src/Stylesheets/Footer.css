@@ -1,0 +1,11 @@
+#bottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.22);
+  background-color: #fff;
+  text-align: center;
+  color: #999;
+  padding: 0px 10px 0px 10px;
+}
+
+.inner {
+  padding: 10px;
+}

@@ -1,0 +1,14 @@
+.cell .topic-lists .title {
+  font-size: 13px;
+  line-height: 120%;
+}
+.cell .topic-lists .topic {
+  padding: 10px;
+  margin: 0 -30px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.center-span {
+  display:table-cell;
+  vertical-align:middle;
+}

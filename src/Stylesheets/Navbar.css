@@ -1,0 +1,61 @@
+.container-fluid {
+  max-width: 1170px;
+}
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-default {
+  background-color: #fff;
+  text-align: center;
+  height: 44px;
+  font-size: 15px;
+  font-weight: 500;
+  background-size: 44px 44px;
+  border-bottom: 1px solid rgba(0,0,0,.22);
+  padding: 0 20px 0 20px;
+}
+
+.navbar-brand {
+  padding: 8px 15px;
+}
+
+.search-bar {
+  width: 276px;
+  height: 28px;
+  background-size: 276px 28px;
+  background-image: url('https://www.v2ex.com/static/img/qbar_light@2x.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+#q {
+  border: none;
+  width: 222px;
+  height: 26px;
+  margin: 0px 0px 2px 30px;
+  background-color: transparent;
+  font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+  font-size: 12px;
+  line-height: 16px;
+  outline: none;
+}
+
+.nav-right-btn a{
+  color: #556;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 12px;
+}
+
+.navbar-right {
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  margin-top: 13px;
+}
