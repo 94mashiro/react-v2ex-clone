@@ -59,3 +59,25 @@
 .navbar-nav {
   margin-top: 13px;
 }
+
+.navbar-right {
+  display: block;
+}
+
+.top-navbar {
+  text-align: center;
+    background-color: #fff;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 500;
+    background-size: 44px 44px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 40px;
+}
+
+.content {
+  min-width: 600px;
+  max-width: 1100px;
+  margin: 0px auto 0px auto;
+}
