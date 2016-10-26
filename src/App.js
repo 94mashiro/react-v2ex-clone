@@ -9,7 +9,9 @@ class App extends Component {
       <div className="App">
         <div>
           <Navbar />
-          {this.props.children}
+          <div className="background">
+            {this.props.children}
+          </div>
           <Footer />
         </div>
       </div>

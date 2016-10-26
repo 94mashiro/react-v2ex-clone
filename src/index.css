@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #e2e2e2;
+  background-color: #fff;
   font-family: "Segoe UI", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
@@ -27,4 +27,9 @@ a, a:link, a:hover {
 
 .sep3 {
   width: 3px;
+}
+
+.background {
+  background: #e2e2e2;
+  padding-top: 20px;
 }
