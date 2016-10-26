@@ -20,7 +20,7 @@ export default class Navbar extends Component {
                   <td width="auto" align="center" style={{paddingTop: '2px'}}>
 
                   </td>
-                  <td width="200px" align="right" style={{paddingTop: '2px'}}>
+                  <td width="130px" align="right" style={{paddingTop: '2px'}}>
                     <Link to="/">首页</Link>
                     &nbsp;&nbsp;&nbsp;
                     <Link to="/">设置</Link>
