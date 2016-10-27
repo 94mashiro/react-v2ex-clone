@@ -11,7 +11,8 @@ class Footer extends Component {
               <div className="inner">
                 <span className="small fade">
                   ♥ Do have faith in what you're doing. <br/>
-                V2EX Clone Made By Mashiro
+                V2EX Clone Made By Mashiro <br />
+                <a href="https://github.com/MashiroWang/react-v2ex-clone">Github Repo</a>
                 </span>
               </div>
             </div>

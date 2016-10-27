@@ -11,7 +11,7 @@ class Lists extends Component {
         return (
           <div className="media topic" key={topic.id}>
             <a className="media-left" href="#">
-              <img className='img-circle img-width-50' src={topic.member.avatar_large} role="presentation" />
+              <img className='img-circle img-width-50' src={topic.member.avatar_normal} role="presentation" />
             </a>
             <div className="media-body">
               <Link to={`/t/${topic.id}`} className='title'>{topic.title}</Link>
