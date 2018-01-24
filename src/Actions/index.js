@@ -1,6 +1,6 @@
 import * as types from '../Config/Constants'
 
-const BASE_URL = 'http://115.159.29.185/api'
+const BASE_URL = 'https://v2ex.mashiro.wang/api'
 
 const received = (type, json) => {
   switch (type){
